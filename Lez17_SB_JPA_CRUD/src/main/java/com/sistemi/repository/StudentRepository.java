@@ -11,7 +11,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 
 @Repository
-@Transactional  //automaticamente si espande su ogni metodo
+@Transactional  //da springframework, automaticamente si espande su ogni metodo
 public class StudentRepository implements StudentRepositoryI {
 	
 	/* Interfaccia per la comunicazione con il PersProv */
