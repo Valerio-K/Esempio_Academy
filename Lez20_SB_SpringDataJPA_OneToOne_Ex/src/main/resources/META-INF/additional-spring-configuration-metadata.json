@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "message.save.success",
+    "type": "java.lang.String",
+    "description": "A description for 'message.save.success'"
+  },
+  {
+    "name": "message.read.fail",
+    "type": "java.lang.String",
+    "description": "A description for 'message.read.fail'"
+  },
+  {
+    "name": "message.delete.fail",
+    "type": "java.lang.String",
+    "description": "A description for 'message.delete.fail'"
+  },
+  {
+    "name": "message.delete.success",
+    "type": "java.lang.String",
+    "description": "A description for 'message.delete.success'"
+  },
+  {
+    "name": "message.save.fail",
+    "type": "java.lang.String",
+    "description": "A description for 'message.save.fail'"
+  }
+]}
