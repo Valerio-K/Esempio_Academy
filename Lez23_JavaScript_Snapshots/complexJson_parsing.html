@@ -1,0 +1,29 @@
+<html>
+<body>
+    <div id="json1"></div>
+    <aside id="json2"></aside>
+<script>
+//MOCK(fake) di un file JSON complesso
+var jsonExample1 = {
+    "name":"Giada Neri",
+    "address": {
+        "street":"via del Corso 16",
+        "city": "Roma"
+    }
+}
+
+var jsonExample2 = {
+    "name":"Andrea Viola",
+    "address": ["via Duomo 2","Milano"]
+}
+console.log(jsonExample1);
+console.log(jsonExample2);
+document.getElementById("json1").innerHTML=
+    jsonExample1.name + ", "
+    + jsonExample1.address.street + ", " + jsonExample1.address.city;
+document.getElementById("json2").innerHTML=
+    jsonExample2.name + ", "
+    + jsonExample2.address
+</script>
+</body>
+</html>

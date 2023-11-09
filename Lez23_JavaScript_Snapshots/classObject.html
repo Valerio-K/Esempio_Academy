@@ -1,0 +1,26 @@
+<html>
+<body>
+    <div id="p1"></div>
+<script>
+
+class Person {
+    constructor(firstName, lastName, age) {
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.age=age;
+    }
+
+    eat() {
+        alert("A person eats");
+    }
+    eat() {
+        alert("people eat");
+    }
+}
+var person1 = new Person("Mario","Rossi",24);
+document.getElementById("p1").innerHTML=person1.firstName;
+person1.eat()
+
+</script>
+</body>
+</html>

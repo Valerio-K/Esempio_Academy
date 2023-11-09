@@ -1,0 +1,16 @@
+<html>
+<body>
+    <aside id="json"></aside>
+<script>
+//MOCK(fake) di un file JSON semplice
+var jsonExample = {
+    "firstName":"Giada",
+    "lastName":"Neri",
+    "age":20
+}
+console.log(jsonExample);
+document.getElementById("json").innerHTML=jsonExample.firstName + " "
++ jsonExample.lastName + " " + jsonExample.age;
+</script>
+</body>
+</html>

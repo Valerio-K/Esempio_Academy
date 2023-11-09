@@ -1,0 +1,23 @@
+<html>
+<body>
+
+    <aside id="pers1"></aside>
+
+<script>
+
+
+var person1 = {
+    firstName:"Mario", //string
+    lastName:"Rossi", //string
+    age:23 //number
+}
+person1.residence="Roma";
+delete person1.residence;
+
+console.log(person1)
+
+document.getElementById("pers1").innerHTML=person1.firstName + " " + person1.lastName + " " + person1.age + ", " + person1.residence
+
+</script>
+</body>
+</html>
