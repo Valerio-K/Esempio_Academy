@@ -9,9 +9,9 @@
         <relativePath /><!-- lookup parent from repository -->
     </parent>
     <groupId>com.sistemi</groupId>
-    <artifactId>Lez22-SB-Restful-Web-Service-Provider-MySQL</artifactId>
+    <artifactId>Lez27-EsercitazioneFullStack-RestfulWebServiceProvider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Lez22-SB-Restful-Web-Service-Provider-MySQL</name>
+    <name>Lez27-EsercitazioneFullStack-RestfulWebServiceProvider</name>
 
     <properties>
         <java.version>17</java.version>
